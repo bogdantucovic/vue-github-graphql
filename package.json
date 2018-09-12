@@ -1,0 +1,47 @@
+{
+  "name": "vue-github-graphql",
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.15",
+    "apollo-cache-inmemory": "^1.2.8",
+    "apollo-client": "^2.4.0",
+    "apollo-link": "^1.2.2",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-http": "^1.5.4",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "moment": "^2.22.2",
+    "vue": "^2.5.17",
+    "vue-apollo": "^3.0.0-beta.19"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogdantucovic/vue-github-graphql.git"
+  },
+  "author": {
+    "name": "Bogdan Tucovic",
+    "email": "1bogdantucovic@gmail.com",
+    "url": "https://www.linkedin.com/in/btucovic/"
+  }
+}
